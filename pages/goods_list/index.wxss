@@ -1,0 +1,12 @@
+.index_category {
+  display: flex;
+}
+
+.index_category navigator {
+  padding: 20rpx;
+  flex: 2;
+}
+
+.index_category navigator image {
+  width: 100%;
+}

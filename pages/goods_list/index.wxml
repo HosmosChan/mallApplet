@@ -1,0 +1,12 @@
+<view class="goods_list_index">
+  <!-- 搜索组件 开始 -->
+  <SearchInput></SearchInput>
+  <!-- 搜索组件 结束 -->
+  <!-- 导航 开始 -->
+  <view class="index_category">
+    <navigator wx:for="{{categoryList}}" wx:key="name">
+      <image src="{{item.image_src}}" mode="widthFix"></image>
+    </navigator>
+  </view>
+  <!-- 导航 结束 -->
+</view>

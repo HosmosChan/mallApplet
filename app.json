@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/collection/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffbe44",
+    "navigationBarTitleText": "Shopping Mall",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/index.png",
+      "selectedIconPath": "icons/index_selected.png"
+    }, 
+    {
+      "pagePath": "pages/goods_list/index",
+      "text": "商品",
+      "iconPath": "icons/goods_list.png",
+      "selectedIconPath": "icons/goods_list_selected.png"
+    }, 
+    {
+      "pagePath": "pages/cart/index",
+      "text": "购物车",
+      "iconPath": "icons/cart.png",
+      "selectedIconPath": "icons/cart_selected.png"
+    }, 
+    {
+      "pagePath": "pages/auth/index",
+      "text": "我的",
+      "iconPath": "icons/auth.png",
+      "selectedIconPath": "icons/auth_selected.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
